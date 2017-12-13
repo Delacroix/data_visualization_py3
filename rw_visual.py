@@ -17,6 +17,9 @@ while True:
     plt.axes().get_xaxis().set_visible(False)
     plt.axes().get_yaxis().set_visible(False)
 
+    # set scale of the window
+    plt.figure(figsize=(10, 6))
+
     plt.show()
 
     keep_running = input("Make another walk? (y/n): ")
